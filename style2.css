@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+  }
+  
+  .main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background-color: blueviolet;
+  }
+  .inner-div {
+    width: 54vw;
+    background-color: burlywood;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem --0.7rem cornflowerblue;
+  }
+  
+  .inner-div h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 10px 0 40px 0;
+  }
+  
+  .inner-div li {
+    font-size: 1.5rem;
+    margin-top: 1.0rem;
+    list-style: none;
+  }
+  
+  input {
+    cursor: pointer;
+  }
+  
+  #previous{
+    margin-top: 100px;
+      font-size: 25px;
+      text-align: left;
+    }
+    
+    #next{
+      margin-top: 100px;
+      font-size: 25px;
+      text-align: right;
+    }
+  
+  #Next:hover {
+    background-color: lightseagreen;
+  }
+  
+
+  #progressBar {
+    width: 24rem;
+    height: 1.5rem;
+    border: 0.3rem solid purple;
+    border-radius: 2.3rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+  }
+  
+  #progressBarFull {
+    height: 1.2rem;
+    background-color: purple;
+    width: 0%;
+  }
+  
+  
+  
+  
+ 
